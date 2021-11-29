@@ -1,0 +1,126 @@
+body{
+ background-color: #ccccff;
+ font-family: Arial,  sans-serif; 
+}
+/* header */
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+img{
+   height: 90px;
+    width: 90px;
+    margin: 0px 70px 0 70px;
+}
+.header .txt{
+  margin-top: 30px; 
+  font-size: 160%;
+  font-family: Arial, sans-serif;
+  color:rgba(0, 0, 0, 0.560);
+}
+
+/* Body */
+.right-1{
+  padding:160px;
+  margin-left: 450px;
+  margin-right: 150px;
+  border-radius: 25px 25px 0px 25px;
+  background-color: #F0F0F0;
+  box-shadow: 0 -5px 5px -5px #333,
+  -5px 0 5px -5px #333, 
+  5px 0 5px -5px #333;
+}
+.right-btm{
+  padding:50px;
+  margin-right:150px ;
+  margin-left: 980px;
+  border-radius: 0px 0px 25px 25px;
+  background-color:#F0F0F0;
+  box-shadow: 0 5px 5px -5px #333,
+  -5px 0 5px -5px #333, 
+  5px 0 5px -5px #333;;
+}
+
+ .left-1{
+  position:fixed;
+  width:255px;
+  height:205px;
+  background-color: transparent; 
+  border-bottom: 0;
+  left:180px;
+  top:280px;
+  border-radius: 25px 25px 0px 0px;
+  box-shadow: 0 -5px 5px -5px #333,
+  -5px 0 5px -5px #333, 
+  5px 0 5px -5px #333;
+} 
+
+
+.left-btm{
+  position:fixed;
+  width:780px;
+  height:195px;
+  background-color: transparent;  
+  border: 1px solid #ccccff;
+  left:180px;
+  top:485px;
+  border-radius: 0px 25px 25px 25px;
+  box-shadow: 0 0 5px #333;
+}
+
+.inner-box{
+  position: fixed;
+  height: 67px;
+  width: 530px;
+  top: 400px;
+  left: 459px;
+  border-radius: 0px 0px 0px 25px ;
+  background-color:#f0f0f0; 
+  box-shadow: 0 5px 5px -5px #333;
+}
+.inner-box2{
+  background-color:#ccccff;
+  position: fixed;
+  height: 67px;
+  width: 253px;
+  top: 450px;
+  left: 181px;
+}
+
+h2.a{
+  text-align: center;
+ font-size: 40px;
+}
+
+h1.a{
+  text-align: center;
+  font-size: 70px;
+  line-height: 1px;
+}
+
+h2.b{
+ text-align: center; 
+ font-size: 35px;
+ line-height: 4px;
+}
+h1.b{
+  text-align: center;
+  font-size: 60px;
+}
+
+
+
+/* footer */
+.footer{
+   position: fixed;
+    left: 0;
+   bottom: 0; 
+   width: 100%;
+   text-align: center;
+   color: white;
+   background-color:  #778899;
+   font-size: 10px;
+}
+
